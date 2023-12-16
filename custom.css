@@ -1,0 +1,30 @@
+caption {
+  caption-side: top;
+}
+
+.table-dark {
+  --bs-table-bg: #0d6efd;
+} 
+
+img {
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.img-fluid {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
