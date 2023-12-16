@@ -8,8 +8,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <link href="styles.css" rel="stylesheet" />
   </head>
+
   <body>
     <!-- (Same as index.html) -->
     <div class="collapse" id="navbarToggleExternalContent">
@@ -28,6 +30,7 @@
         </ul>
       </div>
     </div>
+
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <button
@@ -44,12 +47,13 @@
       </div>
     </nav>
 
-    <div class="container mt-4">
-      <h1>My Portfolio</h1>
-      <p>Here are some of my projects and works.</p>
-      <div class="row">
-        <!-- Portfolio item -->
-        <div class="col-md-4">
+    <div id="portfolio-main " class="container mt-4 mb-4">
+      <div class="header-head mb-4">
+        <h1>My Portfolio</h1>
+        <p>Here are some of my projects and works.</p>
+      </div>
+      <div class="row card-row text-center">
+        <div class="col-lg-4">
           <div class="card">
             <img class="card-img-top" src="images/logo.png" alt="Project 1" />
             <div class="card-body">
@@ -57,64 +61,83 @@
               <p class="card-text">React Blockchain News...</p>
               <a href="#" class="btn btn-primary mt-2">View Details</a>
             </div>
-            
           </div>
         </div>
         <!-- more portfolio items  -->
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="images/beachbros-logo-2.png" alt="Project 1" />
+            <img
+              class="card-img-top"
+              src="images/beachbros-logo-2.png"
+              alt="Project 1"
+            />
             <div class="card-body">
               <h6 class="card-title">BEACH BROS SHARING</h6>
               <p class="card-text">Angular Beach Services Concierge...</p>
               <a href="#" class="btn btn-primary mt-2">View Details</a>
             </div>
-            
-      </div> 
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="images/nft-2.png" alt="Project 1" />
-        <div class="card-body">
-          <h6 class="card-title">KRAKEN OCTUPUS PROJECT</h6>
-          <p class="card-text">Rust Web3 Smart Contracts...</p>
-          <a href="#" class="btn btn-primary mt-2">View Details</a>
+          </div>
         </div>
-      </div> 
-    </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="images/394-logo3.png" alt="Project 1" />
+            <img class="card-img-top" src="images/nft-2.png" alt="Project 1" />
+            <div class="card-body">
+              <h6 class="card-title">KRAKEN OCTUPUS PROJECT</h6>
+              <p class="card-text">Rust Web3 Smart Contracts...</p>
+              <a href="#" class="btn btn-primary mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item -->
+
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/394-logo3.png"
+              alt="Project 1"
+            />
             <div class="card-body">
               <h6 class="card-title">394th CO CODING SQUAD</h6>
               <p class="card-text">React Applications...</p>
               <a href="#" class="btn btn-primary mt-2">View Details</a>
             </div>
-          </div> 
+          </div>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="images/miami-logo.png" alt="Project 1" />
+            <img
+              class="card-img-top"
+              src="images/miami-logo.png"
+              alt="Project 1"
+            />
             <div class="card-body">
               <h6 class="card-title">CALLES DE MIAMI</h6>
               <p class="card-text">React e-commerce store...</p>
               <a href="#" class="btn btn-primary mt-2">View Details</a>
             </div>
-          </div> 
+          </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
-            <img class="card-img-top" src="images/palmeira.png " alt="Project 1" />
+            <img
+              class="card-img-top"
+              src="images/palmeira.png "
+              alt="Project 1"
+            />
             <div class="card-body">
-              <h6 class="card-title">PALMEIRA </h6>
+              <h6 class="card-title">PALMEIRA</h6>
               <p class="card-text">React e-commerce store...</p>
               <a href="#" class="btn btn-primary mt-2">View Details</a>
             </div>
-          </div> 
+          </div>
         </div>
-
+      </div>
+    </div>
     <!-- Bootstrap JS, jQuery, Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
   </body>
 </html>
