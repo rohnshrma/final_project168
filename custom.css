@@ -7,6 +7,7 @@ caption {
 }
 
 img {
+  border-radius: 100px;
   margin: 20px 0;
   display: block;
   margin-left: auto;

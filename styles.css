@@ -48,6 +48,35 @@ body {
   margin: 5px;
 }
 
+#main{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+#main h1{
+  font-size:4rem;
+  text-shadow: 0 0 4px dodgerblue;
+}
+#main img{
+  width:20rem;
+  border: 10px solid #fff;
+/* border-radius:40px 0 40px 0; */
+}
+#main .row{
+  justify-content: center;
+  align-items: center;
+}
+#skills{
+  padding: 4rem 0 4rem 0;
+  color:#333;
+  border-radius: 10px;
+}
+
 .home-intro {
   padding: 20px 0;
   background-color: #3395ff;
@@ -80,10 +109,9 @@ p {
   text-align: center;
 }
 
-#portfolio-main .card-row {
+#portfolio-main .row {
   margin-bottom: 2rem;
 }
-
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -94,55 +122,41 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.contact-page-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 10vh;
+#contact {
+  padding:4rem 2rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  width:70%;
 }
-
-.contact-page-container h1 {
-  text-align: center;
-  margin-left: 35rem;
-  margin-top: 1rem;
-  width: 10rem;
-}
-
-.contact-page-container p {
-  text-align: center;
-  margin-left: 35rem;
-  margin-top: 1rem;
-  width: 10rem;
-}
-
-.contact-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-.contact-form .form-control {
-  border-radius: 0;
-}
-.contact-form button[type="submit"] {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-.contact-form button[type="submit"]:hover {
-  background-color: #0062cc;
-}
-
 @media (max-width: 768px) {
   body {
     margin: 0;
   }
 
+  #main{
+    text-align: center;
+  }
+
   #portfolio-main .row {
     margin: 0 !important;
   }
-  #portfolio-main .col-md-4 {
+
+  .col-lg-4:not(:last-child) {
     margin-bottom: 2rem !important;
   }
 
   .navbar-custom .nav-link {
     color: #6c757d;
   }
+  #contact{
+    text-align: center;
+  }
+#contact .btn{
+  width:100%;
+}
 }
